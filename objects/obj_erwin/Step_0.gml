@@ -3,7 +3,7 @@
 
 key_left = keyboard_check(vk_left);
 key_right = keyboard_check(vk_right);
-key_jump = keyboard_check_pressed(vk_space);
+key_jump = keyboard_check_pressed(vk_up);
 
 // Calculate our movement
 
@@ -13,26 +13,57 @@ hsp = _move * walksp;
 
 vsp = vsp + grv;
 
-// Horizontal Colision
-if (place_meeting(x+hsp,y,obj_wallunder
+if (place_meeting(x,y+1,obj_wallunder)) and (key_jump)
+
 {
-	while (!place_meeting(x+sign(hsp),y,obj_wallunder)))
+	vsp = -jumpsp
+}
+if (not place_meeting(x,y+1,obj_wallunder)) and (key_jump)
+
+{
+	vsp = -jumpspd
+}
+
+// Horizontal Colision
+if (place_meeting(x+hsp,y,obj_wallunder))
+{
+	while (!place_meeting(x+sign(hsp),y,obj_wallunder))
 	{
 		x = x + sign(hsp);
 	}
 	hsp = 0;
-
 }
-x = x + hsp
+x = x + hsp;
 
-// Vertical Colision
-if (place_meeting(x+vsp,y,obj_wallunder
-{ 
-	while (!place_meeting(x,y+sign(vsp),obj_wallunder)))
+// Verticle Colision
+if (place_meeting(x,y+vsp,obj_wallunder))
+{
+	while (!place_meeting(x,y+sign(vsp),obj_wallunder))
 	{
 		y = y + sign(vsp);
 	}
 	vsp = 0;
-
 }
-y = y + vsp
+y = y + vsp;
+
+//Animation
+if (!place_meeting(x,y+1,obj_wallunder))
+{
+	sprite_index = spr_erwinjump;
+	image_speed = 0;
+	if (vsp > 0) image_index = 7; else image_index = 0;
+}
+else
+{
+	image_speed = 1;
+	if (hsp == 0)
+	{
+		sprite_index = spr_erwin;
+	}
+	else
+	{
+		sprite_index = spr_erwinwalk;
+	}
+}
+
+if (hsp != 0) image_xscale = sign(hsp);

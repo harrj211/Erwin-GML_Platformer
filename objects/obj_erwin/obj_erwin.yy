@@ -9,7 +9,10 @@
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_erwin",
+    "path": "sprites/spr_erwin/spr_erwin.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
