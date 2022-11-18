@@ -1,3 +1,3 @@
 /// @desc Move between rooms!
-room_goto(rm_lvl2)
+room_goto(room+1)
 
