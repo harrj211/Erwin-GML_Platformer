@@ -29,9 +29,9 @@
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Walls","tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":11,"SerialiseHeight":6,"TileCompressedData":[
 -13,-2147483648,1,46,-15,-2147483648,1,46,-3,-2147483648,1,
-36,-3,0,8,34,36,-2147483648,0,0,35,33,
-24,-3,0,18,16,24,-2147483648,0,0,32,0,
-24,-2147483648,-2147483648,0,16,24,-2147483648,0,-2147483648,32,-2147483648,
+36,-3,0,8,34,36,-2147483648,0,0,34,20,
+24,-3,0,18,16,24,-2147483648,0,0,16,47,
+24,-2147483648,-2147483648,0,16,24,-2147483648,0,-2147483648,16,47,
 ],},"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Buildings","spriteId":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"colour":4283190348,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":true,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Clouds","spriteId":{"name":"spr_cloud","path":"sprites/spr_cloud/spr_cloud.yy",},"colour":4294967295,"x":0,"y":-300,"htiled":true,"vtiled":false,"hspeed":-1.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
