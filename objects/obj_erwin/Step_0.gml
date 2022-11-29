@@ -18,10 +18,15 @@ if (place_meeting(x,y+1,obj_wallunder)) and (key_jump)
 {
 	vsp = -jumpsp
 }
-if (not place_meeting(x,y+1,obj_wallunder)) and (key_jump)
+if (not place_meeting(x,y+1,obj_wallunder)) and (key_jump) and (jumpspdused = 0)
 
 {
 	vsp = -jumpspd
+	jumpspdused = 1
+}
+if (place_meeting(x,y+1,obj_wallunder))
+{
+	jumpspdused = 0
 }
 
 // Horizontal Colision

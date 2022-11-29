@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_teleportto",
+  "name": "obj_teleport",
   "spriteId": {
     "name": "spr_wallunder",
     "path": "sprites/spr_wallunder/spr_wallunder.yy",

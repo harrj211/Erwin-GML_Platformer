@@ -4,4 +4,5 @@ vsp = 0;
 grv = 0.3;
 walksp = 4;
 jumpsp = 9;
-jumpspd = 5;
+jumpspd = 9;
+jumpspdused = 0;
