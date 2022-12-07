@@ -6,8 +6,8 @@
     "name": "spr_wallerwin",
     "path": "sprites/spr_wallerwin/spr_wallerwin.yy",
   },
-  "tileWidth": 64,
-  "tileHeight": 64,
+  "tileWidth": 128,
+  "tileHeight": 128,
   "tilexoff": 0,
   "tileyoff": 0,
   "tilehsep": 0,
@@ -22,7 +22,7 @@
   "out_columns": 7,
   "tile_count": 48,
   "autoTileSets": [
-    {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"autotile_1","tiles":[
+    {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"erwintile","tiles":[
         47,
         1,
         2,
