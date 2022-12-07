@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_teleportback",
+  "name": "obj_teleportthere",
   "spriteId": {
-    "name": "spr_teleportback",
-    "path": "sprites/spr_teleportback/spr_teleportback.yy",
+    "name": "spr_teleportthere",
+    "path": "sprites/spr_teleportthere/spr_teleportthere.yy",
   },
   "solid": false,
   "visible": false,

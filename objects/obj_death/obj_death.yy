@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_teleport",
+  "name": "obj_death",
   "spriteId": {
-    "name": "spr_wallunder",
-    "path": "sprites/spr_wallunder/spr_wallunder.yy",
+    "name": "spr_deathwall",
+    "path": "sprites/spr_deathwall/spr_deathwall.yy",
   },
   "solid": false,
   "visible": false,

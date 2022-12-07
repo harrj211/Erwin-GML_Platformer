@@ -1,10 +1,10 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "tlst_erwin",
+  "name": "tlst_erwindark",
   "spriteId": {
-    "name": "spr_wallerwin",
-    "path": "sprites/spr_wallerwin/spr_wallerwin.yy",
+    "name": "spr_wallerwindark",
+    "path": "sprites/spr_wallerwindark/spr_wallerwindark.yy",
   },
   "tileWidth": 128,
   "tileHeight": 128,
@@ -17,12 +17,12 @@
     "name": "Default",
     "path": "texturegroups/Default",
   },
-  "out_tilehborder": 0,
-  "out_tilevborder": 0,
+  "out_tilehborder": 2,
+  "out_tilevborder": 2,
   "out_columns": 7,
   "tile_count": 48,
   "autoTileSets": [
-    {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"tlst_erwin","tiles":[
+    {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"tlst_erwindark","tiles":[
         47,
         1,
         2,

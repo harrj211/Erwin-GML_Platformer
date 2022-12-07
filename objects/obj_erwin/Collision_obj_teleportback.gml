@@ -1,4 +1,4 @@
-/// @description Die.
-room_goto(room_first)
+/// @description Move between rooms
+room_goto(room-1)
 
 
