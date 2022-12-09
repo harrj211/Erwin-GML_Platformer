@@ -30,6 +30,11 @@ A game grown from the GML Starter kit for the **Platformer Tutorial (GML) - Part
 * Ctrl = go back 1 room
 * Mouse left pressed = drag player character around
 
+***SECRETS***
+* Go to Level 5.
+* Jump up instead of down.
+* Walk along the wall.
+* Get through the secret room.
 ## Credits
 Video tutorials were created by [Shaun Spalding](https://www.youtube.com/c/ShaunSpalding).
 Check out Shaun's amazing collections of videos.
