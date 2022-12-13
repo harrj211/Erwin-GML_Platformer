@@ -27,7 +27,6 @@ A game grown from the GML Starter kit for the **Platformer Tutorial (GML) - Part
 * A = left
 * D = right
 * Space = jump/double jump
-* Ctrl = go back 1 room
 * Mouse left pressed = drag player character around
 
 **SECRETS**:
