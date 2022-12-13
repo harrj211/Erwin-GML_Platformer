@@ -30,6 +30,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_411ACD2D","properties":[],"isDnd":false,"objectId":{"name":"obj_wallunder","path":"objects/obj_wallunder/obj_wallunder.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1024.0,"y":1152.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_78251D80","properties":[],"isDnd":false,"objectId":{"name":"obj_wallunder","path":"objects/obj_wallunder/obj_wallunder.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":1280.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6080DB4","properties":[],"isDnd":false,"objectId":{"name":"obj_secretending","path":"objects/obj_secretending/obj_secretending.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":2.25,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-128.0,"y":992.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_31E068FF","properties":[],"isDnd":false,"objectId":{"name":"obj_secretteloportback","path":"objects/obj_secretteloportback/obj_secretteloportback.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":2.25,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-320.0,"y":96.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":"none","properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Walls","tilesetId":{"name":"tlst_erwin","path":"tilesets/tlst_erwin/tlst_erwin.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":11,"SerialiseHeight":11,"TileCompressedData":[
 -2,0,1,-2147483648,-10,0,1,-2147483648,-10,0,2,
@@ -55,6 +56,7 @@
     {"name":"inst_411ACD2D","path":"rooms/rm_lvlsecret/rm_lvlsecret.yy",},
     {"name":"inst_78251D80","path":"rooms/rm_lvlsecret/rm_lvlsecret.yy",},
     {"name":"inst_6080DB4","path":"rooms/rm_lvlsecret/rm_lvlsecret.yy",},
+    {"name":"inst_31E068FF","path":"rooms/rm_lvlsecret/rm_lvlsecret.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
