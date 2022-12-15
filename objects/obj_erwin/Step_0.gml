@@ -13,6 +13,7 @@ hsp = _move * walksp;
 
 vsp = vsp + grv;
 
+
 if (place_meeting(x,y+1,obj_wallunder)) and (key_jump)
 
 {
@@ -68,6 +69,7 @@ else
 	else
 	{
 		sprite_index = spr_erwinwalk;
+
 	}
 }
 
