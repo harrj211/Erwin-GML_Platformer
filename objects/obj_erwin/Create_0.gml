@@ -6,3 +6,4 @@ walksp = 6;
 jumpsp = 9;
 jumpspd = 9;
 jumpspdused = 2;
+
