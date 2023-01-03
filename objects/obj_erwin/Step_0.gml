@@ -1,4 +1,4 @@
-/// @desc Core player logic
+/// @desc Core player logic and pain
 // Get player inputs
 
 key_left = keyboard_check(ord("A"));
@@ -52,13 +52,14 @@ if (place_meeting(x,y+vsp,obj_wallunder))
 }
 y = y + vsp;
 
-//Animation
+//Animation states
 if (!place_meeting(x,y+1,obj_wallunder))
 {
 	sprite_index = spr_erwinjump;
 	image_speed = 0;
-	if (vsp > 0) image_index = 8; else image_index = 7;
+	if (vsp > -0) image_index = 8; else image_index = 7;
 }
+
 else
 {
 	image_speed = 1;
