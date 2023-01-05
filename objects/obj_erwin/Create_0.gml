@@ -5,5 +5,5 @@ grv = 0.3;
 walksp = 6;
 jumpsp = 9;
 jumpspd = 9;
-jumpspdused = 2;
+jumpspdused = 2; 
 

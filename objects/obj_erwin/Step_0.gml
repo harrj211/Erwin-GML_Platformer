@@ -30,6 +30,7 @@ if (place_meeting(x,y+1,obj_wallunder))
 	jumpspdused = 0
 }
 
+
 // Horizontal Colision
 if (place_meeting(x+hsp,y,obj_wallunder))
 {
@@ -75,3 +76,13 @@ else
 }
 
 if (hsp != 0) image_xscale = sign(hsp);
+
+//Test
+if (place_meeting(x,y+vsp,Object12))
+{
+	while (!place_meeting(x,y+sign(vsp),Object12))
+	{
+		y = y + sign(vsp);
+	}
+	vsp = 0;
+}
